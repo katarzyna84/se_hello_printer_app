@@ -14,5 +14,5 @@ after_success:
 
 deploy:
   provider: heroku
-  app: https://sheltered-fortress-98737.herokuapp.com/
+  app: sheltered-fortress-98737
   api_key: ${HEROKU_API_KEY}
