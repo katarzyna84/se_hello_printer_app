@@ -11,4 +11,8 @@ script:
   - make docker_build
 after_success:
   - make docker_push
-  
+
+deploy:
+  provider: heroku
+  app: https://sheltered-fortress-98737.herokuapp.com/
+  api_key: ${HEROKU_API_KEY}
