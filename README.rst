@@ -83,3 +83,5 @@ Materiały
 - https://virtualenvwrapper.readthedocs.io/en/latest/
 
 PLUS NAUKA WŁASNA W DOMU
+
+Monitoring ze Statuscake.com
