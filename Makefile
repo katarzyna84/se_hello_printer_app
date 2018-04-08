@@ -12,7 +12,14 @@ lint:
 	flake8 hello_world test
 
 test:
-	python -m pytest
+	python -m pytest --verbose -s
+
+test_cov:
+	python -m pytest --verbose -s --cov=.
+
+test_xunit:
+	python -m pytest -s --cov=.  --junit-xml=test_results.xml
+
 
 run:
 	python main.py
@@ -37,7 +44,3 @@ docker_push: docker_build
 			 docker tag h$(MY_DOCKER_NAME) $(TAG); \
 			 docker push $(TAG); \
 			 docker logout
-
-
-			 -test_cov-generacja coverage
-			 -test_xunit-generacja xunit i coverage
