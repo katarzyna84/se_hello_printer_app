@@ -100,29 +100,4 @@ dodanie Badge z StatusCake:
 
 
 
-  Test coverage
-  1. Dodaj pytect-cov do test_requirements
-
-          echo 'pytest-cov' >> test_requirements.txt
-          pip install -r test_requirements.txt
-
-  2. Teraz mozemy wywolac py.test z aktywowanym pytest-cov:
-          PYTHONPATH=. py.test --verbose -s --cov=.
-
-  3. Generacja plikow xunit:
-          PYTHONPATH=. py.test -s --cov=.  --junit-xml=test_results.xml
-
-  4. Dodaj dwa nowe targety do pliku Makefile:
-          -test_cov-generacja coverage
-          -test_xunit-generacja xunit i coverage
-
-  5. Dodaj plik .gitignore, tak aby git (git status) ignorowal pliki: test_results.xml i .coverage
-
-  6. Wykorzystaj make test-xunit w .travis.yml
-
-  7. Bonus 1: wykorzystaj https://www.codeclimate.com/ do sledzenia metryk Twojego kodu
-
-  8. Bonus 2: Code complexity z radon (patrz: https://pypi.python.org/pypi/radon):
-
-          pip install radon
-          radon cc hello_world
+  
