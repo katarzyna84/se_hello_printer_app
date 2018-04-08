@@ -37,3 +37,7 @@ docker_push: docker_build
 			 docker tag h$(MY_DOCKER_NAME) $(TAG); \
 			 docker push $(TAG); \
 			 docker logout
+
+
+			 -test_cov-generacja coverage
+			 -test_xunit-generacja xunit i coverage
