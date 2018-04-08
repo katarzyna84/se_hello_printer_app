@@ -9,7 +9,6 @@ script:
   - make test
   - make test_cov
   - make test_xunit
-  - make test_radon
   - make lint
   - make docker_build
 

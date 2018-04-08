@@ -20,8 +20,6 @@ test_cov:
 test_xunit:
 	python -m pytest -s --cov=.  --junit-xml=test_results.xml
 
-test_radon:
-	radon cc hello_world
 
 run:
 	python main.py
