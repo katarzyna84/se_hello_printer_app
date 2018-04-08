@@ -90,4 +90,4 @@ dodanie Badge z TRAviCI:
 obraz: https://travis-ci.org/katarzyna84/se_hello_printer_app.svg?branch=master
 
 dodanie Badge z StatusCAke:
-obraz: <a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=z8nd5H0O2r&Days=1&Design=6" /></a>
+obraz: https://app.statuscake.com/button/index.php?Track=z8nd5H0O2r&Days=1&Design=6
