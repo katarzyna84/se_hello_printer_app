@@ -86,13 +86,13 @@ PLUS NAUKA WŁASNA W DOMU
 
 Monitoring ze Statuscake.com
 
-dodanie Badge z TRAviCI:
+dodanie Badge z TravisCI:
 
 
 .. image:: https://travis-ci.org/katarzyna84/se_hello_printer_app.svg?branch=master
 
 
-dodanie Badge z StatusCAke:
+dodanie Badge z StatusCake:
 
 
 .. image:: https://app.statuscake.com/button/index.php?Track=z8nd5H0O2r&Days=1&Design=6
