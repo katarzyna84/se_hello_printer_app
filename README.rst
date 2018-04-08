@@ -98,6 +98,8 @@ dodanie Badge z StatusCake:
 .. image:: https://app.statuscake.com/button/index.php?Track=z8nd5H0O2r&Days=1&Design=6
     :target: https://app.statuscake.com/
 
+
+
   Test coverage
   1. Dodaj pytect-cov do test_requirements
 
@@ -124,5 +126,3 @@ dodanie Badge z StatusCake:
 
           pip install radon
           radon cc hello_world
-
-          
